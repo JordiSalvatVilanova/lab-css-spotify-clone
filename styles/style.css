@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: #00B172; */
+}
+
+/* BARRA NAVEGACIO ------------------------------------------------------------------------------ */
+nav {
+    display: flex;
+
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+    /* per a que es quedi flotant */
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+}
+#img-logo-spotify{
+    padding-left: 20px;
+    width: 130px;
+}
+
+
+#box-opcions-nav{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    width: 350px;
+    margin-right: 20px;
+    /* background-color: antiquewhite; */ 
+}
+
+
+a {
+    text-decoration: none; /* treu subrallat */
+    color: black; 
+    font-size: 17px;
+}
+
+a:hover {
+    color: #00B172;
+}
+
+/* IMG LANDING PAGE ---------------------------------------------------------------------------------- */
+
+#box-navimg {
+    position: relative; /* Para posicionar el texto sobre la imagen */
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-landing {
+    width: 100%; /* Ocupar todo el ancho del contenedor */
+    height: 100%; /* Ocupar todo el alto del contenedor */
+    object-fit: cover; /* Recortar la imagen para ajustarse sin distorsionarse */
+}
+
+#text-overlay {
+    position: absolute; /* Para colocar el texto sobre la imagen */
+    text-align: center;
+    color: white; /* Color blanco para contraste */
+    max-width: 80%; /* Para que no sea demasiado ancho */
+}
+
+#text-overlay h1 {
+    font-size: 3rem; /* Texto más grande */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#text-overlay p {
+    font-size: 1.5rem; /* Texto más pequeño */
+    font-weight: normal;
+}
+
+/* #img-landing {
+    width: 100%;
+    height: auto; 
+} */
+
+/* WHAT'S ON SPOTIFY ?------------------------------------------------------------------------------------ */
+.title-1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#underlined-1 {
+    display: inline-block; /* Para que el borde solo abarque el texto */
+    border-bottom: 3px solid #00B172; /* Línea de subrayado */
+    padding-bottom: 3px; /* Espacio entre el texto y la línea */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+#box-three-things {
+    display: flex;
+
+    justify-content: space-evenly;
+    /* background-color: rgb(255, 181, 84); */
+    text-align: center;
+}
+
+.box-thing{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+
+#icon-1 {
+    width: 75px;
+}
+#icon-2 {
+    width: 90px;
+}
+
+#icon-3 {
+    width: 81px;
+}
+.title-2{
+    color: #00B172;
+    margin: 6px;
+}
+
+.p-1{
+    margin-top: 20px;
+}
+
+/* GREENNN SECTION ------------------------------------------------------------------------------------------*/
+
+#box-green-section {
+    position: relative;
+    display: flex;
+
+    justify-content: space-between;
+    background-color: #00B172;
+    color: white;
+    margin: 40px;
+    padding: 60px;
+    /* padding-right: 100px; */
+}
+
+.box-text {
+    /* background-color: #019e67; */
+}
+
+.box-kayne-img {
+    width: 200px;
+    margin-top: 27px;
+}
+
+#kayne-img {
+    width: 100%;
+}
+
+.title-2 {
+    margin-top: 0px;
+    color: white;
+}
+#underlined-2 {
+    display: inline-block; /* Para que el borde solo abarque el texto */
+    border-bottom: 3px solid white; /* Línea de subrayado */
+    padding-bottom: 3px; /* Espacio entre el texto y la línea */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.p-2{
+    width: 216px;
+}
+
+#box-img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img-overlay {
+    width: 100px;
+}
